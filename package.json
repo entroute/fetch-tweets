@@ -1,0 +1,33 @@
+{
+  "name": "fetch-tweets",
+  "version": "0.1.0",
+  "description": "Fetch recent tweets from any X/Twitter account via a verified x402 endpoint. No API key, pay-per-request in USDC.",
+  "keywords": [
+    "x402",
+    "fetch-tweets",
+    "twitter-api-alternative",
+    "scrape-tweets",
+    "twitter-scraper",
+    "ai-agents",
+    "mcp",
+    "entroute",
+    "pay-per-request",
+    "base"
+  ],
+  "homepage": "https://entroute.com",
+  "bugs": "https://github.com/entroute/fetch-tweets/issues",
+  "license": "MIT",
+  "author": "EntRoute",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@entroute/sdk-agent-ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
